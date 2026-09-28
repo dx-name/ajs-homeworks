@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "webpack --mode production",
-  "dev": "webpack --mode development",
-  "serve": "webpack --mode production && http-server dist -o",
-  "watch": "webpack --mode development --watch"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "serve": "webpack --mode production && http-server dist -o",
+    "watch": "webpack --mode development --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@babel/core": "^8.0.6",
     "@babel/preset-env": "^8.0.6",
